@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    margin: 0 64px ;
+}
+
+.navbar {
+    padding: 16px 16px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between
+}
+
+.navbar a {
+    transition: all 0.15s ease-in-out;
+    color: beige;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(48, 48, 48);
+}
+
+label{
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: rgba(210, 105, 30, 0.81);
+}
+button{
+    padding: 8px 24px;
+    background-color: chocolate;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input, textarea{
+    display: block;
+    margin: 16px 0;
+    padding: 8px;
+    border: 2px solid rgb(48, 48, 48) ;
+    outline: none;
+}
+input:hover, textarea:hover, input:focus, textarea:focus{
+    border: 2px solid rgb(33, 0, 163) ;
+}
+
+.alert{
+    margin: 16px 0;
+    padding: 16px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.success{
+    background-color: rgb(8, 171, 8);
+}
+.danger{
+    background-color: rgb(200, 23, 23);
+}
